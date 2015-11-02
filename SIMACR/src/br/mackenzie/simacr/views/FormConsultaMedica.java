@@ -95,8 +95,8 @@ public class FormConsultaMedica extends javax.swing.JFrame {
         txtIMC = new javax.swing.JTextField();
         lblSintomas = new javax.swing.JLabel();
         lblAnamnese = new javax.swing.JLabel();
-        lblEvolução_Clinica = new javax.swing.JLabel();
-        lblHipotese_Diagnóstico = new javax.swing.JLabel();
+        lblEvolucao_Clinica = new javax.swing.JLabel();
+        lblHipotese_Diagnostico = new javax.swing.JLabel();
         jScrollPane5 = new javax.swing.JScrollPane();
         txtSintoma_Principal = new javax.swing.JTextPane();
         jScrollPane6 = new javax.swing.JScrollPane();
@@ -154,9 +154,9 @@ public class FormConsultaMedica extends javax.swing.JFrame {
 
         lblAnamnese.setText("Anamnese");
 
-        lblEvolução_Clinica.setText("Evolução Clinica");
+        lblEvolucao_Clinica.setText("Evolução Clinica");
 
-        lblHipotese_Diagnóstico.setText("Hipótese Diagnóstica ");
+        lblHipotese_Diagnostico.setText("Hipótese Diagnóstica ");
 
         txtSintoma_Principal.setEnabled(false);
         txtSintoma_Principal.setFocusCycleRoot(false);
@@ -226,8 +226,8 @@ public class FormConsultaMedica extends javax.swing.JFrame {
                                 .addComponent(txtPeso, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(lblSintomas)
                             .addComponent(lblAnamnese)
-                            .addComponent(lblEvolução_Clinica)
-                            .addComponent(lblHipotese_Diagnóstico))
+                            .addComponent(lblEvolucao_Clinica)
+                            .addComponent(lblHipotese_Diagnostico))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(layout.createSequentialGroup()
@@ -286,11 +286,11 @@ public class FormConsultaMedica extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(lblEvolução_Clinica)
+                .addComponent(lblEvolucao_Clinica)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(lblHipotese_Diagnóstico)
+                .addComponent(lblHipotese_Diagnostico)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(23, Short.MAX_VALUE))
@@ -325,8 +325,8 @@ public class FormConsultaMedica extends javax.swing.JFrame {
     private javax.swing.JLabel lblAltura;
     private javax.swing.JLabel lblAnamnese;
     private javax.swing.JLabel lblDiameto_Cintura;
-    private javax.swing.JLabel lblEvolução_Clinica;
-    private javax.swing.JLabel lblHipotese_Diagnóstico;
+    private javax.swing.JLabel lblEvolucao_Clinica;
+    private javax.swing.JLabel lblHipotese_Diagnostico;
     private javax.swing.JLabel lblIMC;
     private javax.swing.JLabel lblNascimento;
     private javax.swing.JLabel lblPaciente;
