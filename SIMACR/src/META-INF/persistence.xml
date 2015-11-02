@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+  <persistence-unit name="simacrJPA" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <class>br.mackenzie.simacr.entidades.EntidadeComunidade</class>
+    <class>br.mackenzie.simacr.entidades.EntidadeConsultaMedica</class>
+    <class>br.mackenzie.simacr.entidades.EntidadeConsultaOdontologica</class>
+    <class>br.mackenzie.simacr.entidades.EntidadeCorDePele</class>
+    <class>br.mackenzie.simacr.entidades.EntidadeFilaAviamento</class>
+    <class>br.mackenzie.simacr.entidades.EntidadeFilaConsultaMedica</class>
+    <class>br.mackenzie.simacr.entidades.EntidadeFilaConsultaOdontologica</class>
+    <class>br.mackenzie.simacr.entidades.EntidadeFilaTriagem</class>
+    <class>br.mackenzie.simacr.entidades.EntidadeItemEstoque</class>
+    <class>br.mackenzie.simacr.entidades.EntidadeLogin</class>
+    <class>br.mackenzie.simacr.entidades.EntidadeLote</class>
+    <class>br.mackenzie.simacr.entidades.EntidadeLoteItemEstoque</class>
+    <class>br.mackenzie.simacr.entidades.EntidadeMedicamento</class>
+    <class>br.mackenzie.simacr.entidades.EntidadePaciente</class>
+    <class>br.mackenzie.simacr.entidades.EntidadeReceita</class>
+    <class>br.mackenzie.simacr.entidades.EntidadeReceitaTripulante</class>
+    <class>br.mackenzie.simacr.entidades.EntidadeReceita_Medicamento</class>
+    <class>br.mackenzie.simacr.entidades.EntidadeRio</class>
+    <class>br.mackenzie.simacr.entidades.EntidadeTriagem</class>
+    <class>br.mackenzie.simacr.entidades.EntidadeTripulante</class>
+    <properties>
+      <property name="hibernate.connection.username" value="root"/>
+      <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+      <property name="hibernate.connection.password" value=""/>
+      <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/simacr"/>
+      <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
+      <property name="hibernate.hbm2ddl.auto" value="update"/>
+    </properties>
+  </persistence-unit>
+</persistence>
